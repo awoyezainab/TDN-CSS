@@ -1,7 +1,11 @@
+*{
+    font-family: "nunito",san-serif;
+}
 body{
     background-color:aliceblue ;
     margin: 0;
-    padding: 0;
+    padding-left: 50px;
+    padding-right: 50px;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -9,15 +13,35 @@ body{
 /* Navbar styling starts here */
 .wrapper{
     display: flex;
-    justify-content: space-between;
-    grap: 2rem;
+    justify-content: space-around;
+    grap: 1.5rem;
+    height: 50px;
+    margin-bottom: 200px;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
 }.icon img{
-    width: 10rem;
+    width: 15rem;
 }
 .navlinks a{
-    text-decoration: none;
+    justify-content: space-around;
     color: black;
+    gap: 1.5rem;
 }
+.navbotton a{
+    background-color: teal;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.navbutton a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+/* First Section Styling begin here...... */
 .first {
     display: flex;
 }
@@ -58,4 +82,17 @@ body{
     width: 30rem;
     height: 100%;
     border-radius: 10px;
+}
+.container{
+    background-color: teal;
+}
+.thenumbers{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    color: white;
+}
+.icon{
+    margin-left: 30rem;
+    color: white;
 }
