@@ -96,3 +96,30 @@ body{
     margin-left: 30rem;
     color: white;
 }
+.fourth .meta{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 15rem;
+}
+.fourth p{
+    font-size: 15px;
+    width: 15rem;
+
+}
+.fifth{
+    margin-left: 20rem;
+    margin-top: 7rem;
+    line-height: 10rem;
+}
+.fifth .meta a{
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: teal;
+    color: white;
+    border-radius: 0.5rem;
+    margin-left: 12rem;
+    font-weight: bolder;
+}
