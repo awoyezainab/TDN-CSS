@@ -3,12 +3,17 @@
 }
 body{
     background-color:aliceblue ;
-    margin: 0;
+    height: 100vh;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.top{
     padding-left: 50px;
     padding-right: 50px;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    margin-top: 120px;
 }
 /* Navbar styling starts here */
 .wrapper{
@@ -20,6 +25,8 @@ body{
     align-items: center;
     padding-left: 50px;
     padding-right: 50px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }.icon img{
     width: 15rem;
 }
@@ -122,4 +129,27 @@ body{
     border-radius: 0.5rem;
     margin-left: 12rem;
     font-weight: bolder;
+}
+.down{
+    background-color: white;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+.last ul{
+    list-style: none;
+    text-align: left;
+    padding-left: 3px;
+}
+.last .dummy{
+    line-height: 2rem;
+}
+.last .dummy a{
+    text-decoration: none;
+    color: black;
 }
