@@ -153,3 +153,21 @@ header{
     text-decoration: none;
     color: black;
 }
+.down .icons{
+    display: flex;
+   justify-content: center;
+    margin-left: 45rem;
+    gap: 3rem;
+}
+.down .icons{
+    width: 25px;
+}
+.down .final{
+    background-color: black;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
